@@ -2,7 +2,7 @@
 def count_batteries_by_usage(cycles):
   lowCount=0
   mediumCount=0
-  highcount=0
+  highCount=0
   for i in range (0,len(cycles)):
     if cycles[i]<410:
       lowCount=lowCount+1
